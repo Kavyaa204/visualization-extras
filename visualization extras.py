@@ -7,7 +7,7 @@ data = pd.read_csv('gapminder(2007).csv')
 
 data.head()
 
-grouped_df = data.groupby('continent').mean(numeric_only=Tryue)
+grouped_df = data.groupby('continent').mean(numeric_only=True)
 grouped_Df = grouped_df.reset_index()
 grouped_df
 
